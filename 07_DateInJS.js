@@ -20,18 +20,17 @@ let date = new Date("2023-01-25"); //(yy-mm-dd)
 console.log(date.toLocaleString());
 
 let currentDate = new Date("01-14-2023");
-console.log(currentDate.getTime());
-console.log(currentDate.getDate());
-console.log(currentDate.getDay());
-console.log(currentDate.getFullYear());
-console.log(currentDate.getHours());
-console.log(currentDate.getMilliseconds());
-console.log(currentDate.getMinutes());
-console.log(currentDate.getMonth());
-console.log(currentDate.getSeconds());
-console.log(currentDate.getTimezoneOffset());
-console.log(currentDate.getUTCDate());
-console.log(currentDate.getUTCDay());
+console.log(currentDate.getTime());//1673634600000
+console.log(currentDate.getDate()); //14
+console.log(currentDate.getDay());//6
+console.log(currentDate.getFullYear());//2023
+console.log(currentDate.getHours());//0
+console.log(currentDate.getMilliseconds());//0
+console.log(currentDate.getMinutes());//0
+console.log(currentDate.getMonth());//0
+console.log(currentDate.getSeconds());//0
+console.log(currentDate.getUTCDate());//-330
+console.log(currentDate.getUTCDay());//5
 console.log(currentDate.toLocaleString());//(mm-dd-yy)
 
 let myTimeStamp = (Math.floor( Date.now()/1000));
