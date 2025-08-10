@@ -1,0 +1,14 @@
+#light{
+    background-color: white;
+    color: black;
+    height: 70px;
+    width: 150px;
+    border: 5px solid burlywood;
+}
+#dark{
+   background-color: black;
+   color: white; 
+   height: 70px;
+   width: 150px;
+   border: 5px solid burlywood;
+}
